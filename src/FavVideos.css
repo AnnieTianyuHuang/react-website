@@ -1,0 +1,33 @@
+/* FavVideos.css */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure the controls are above the video */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px; /* Increase width */
+  height: 40px; /* Increase height */
+  font-weight: bold; /* Make the icon bold */
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item {
+  display: inline-block;
+}

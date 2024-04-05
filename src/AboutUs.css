@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff6dc; 
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Headings */
+  h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Carousel customizations */
+  .carousel-item img {
+    max-height: 400px; /* Adjust based on your preference */
+    object-fit: cover;
+    margin: auto;
+  }
+  
+  /* Custom styling for the 'Hire Us' section */
+  .hire-us-section img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  /* 'Back to Home' button styling */
+  .back-to-home-btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* social media styles */
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap as necessary */
+  padding: 20px 0;
+}
+
+.social-icon {
+  width: 50px; /* Adjust size as necessary */
+  height: 50px; /* Adjust size as necessary */
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+  }
+}

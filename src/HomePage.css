@@ -1,0 +1,27 @@
+/* HomePage.css */
+.logo {
+  max-width: 100px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+}
+
+.title {
+  font-size: 48px; /* Adjust as needed */
+  margin-bottom: 30px; /* Adjust as needed */
+  background-color: yellow; /* Set title background color to yellow */
+  padding: 10px 20px; /* Add padding to create space around the text */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  display: inline-block; /* Make the title behave as an inline-block element */
+  position: absolute; /* Position the title absolutely */
+  top: 50%; /* Move the title vertically to the center of the page */
+  left: 50%; /* Move the title horizontally to the center of the page */
+  transform: translate(-50%, -50%); /* Use transform to center the title */
+}
+
+.navigation-buttons {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
